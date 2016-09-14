@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Test19_WriteToSD</string>
+    <string name="write_to_sd">Write To SD</string>
+    <string name="read_from_sd">Read From SD</string>
+</resources>
