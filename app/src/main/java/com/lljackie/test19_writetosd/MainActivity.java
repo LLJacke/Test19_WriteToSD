@@ -29,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
         Button bt_write = (Button) findViewById(R.id.bt_write);
         Button bt_read = (Button) findViewById(R.id.bt_read);
 
+        Toast.makeText(MainActivity.this,
+                Environment.getExternalStorageDirectory().getAbsolutePath(),
+                Toast.LENGTH_SHORT).show();
         bt_write.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
